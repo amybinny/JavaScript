@@ -1,9 +1,16 @@
 let count = 0; // Initialize count to 0
 
+//follower counter
 function increaseCount() {
   count++; // Increment the count by 1
   displayCount(); // Display the count  
   checkCountValue(); // Check count value and display messages
+}
+
+//reset follower count
+function resetCount() {
+  count=0; // Increment the count by 1
+  displayCount(); // Display the count  
 }
 
 function displayCount() {
@@ -17,3 +24,4 @@ function checkCountValue() {
     alert("Your Instagram post gained 20 followers! Keep it up!");
   }
 }
+
